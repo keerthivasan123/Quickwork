@@ -67,7 +67,7 @@
     `POST`
   *   **Data Params:**
      **Required:**<br />
-    `{ "to" : "example@gmail.com", "subject" : "Example Subject", "body" : "abc def ghi jkl etc..." }`
+    `{ "to" : "example@gmail.com",<br /> "subject" : "Example Subject",<br /> "body" : "abc def ghi jkl etc..." }`
 
   *   **Success Response:**<br />
       `{
