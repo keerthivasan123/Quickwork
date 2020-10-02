@@ -5,22 +5,55 @@
 ----
   These apis are used to authenticate the users to signin, signout, and handle callbacks from google.
 
-*   **URL**
+  *   **URL**
 
-  /auth/signin
+    `/auth/signin`
 
-*   **Method:**
+  *   **Method:**
 
-  `GET`
+    `GET`
 
-  None
+    None
 
-*   **Success Response:**
+  *   **Success Response:**
+      `on successful login redirects to auth/signin/callback`
+   
+  *   **URL**
 
-      * **Code:** 200 <br />
-      **Content:** `successfully logged In`
- 
-      * **Error Response:**
+    `/auth/signin/callback`
 
-      * **Code:** 400<br />
-      **Content:** `error in signing In`
+  *   **Method:**
+
+    `GET`
+
+    None
+
+  *   **Success Response:**
+
+        * **Code:** 200 <br />
+        **Content:** `successfully logged In`
+
+        * **Error Response:**
+
+        * **Code:** 400<br />
+        **Content:** `error in signing In`
+        
+  *   **URL**
+
+    `/auth/signin/signout`
+
+  *   **Method:**
+
+    `GET`
+
+    None
+
+  *   **Success Response:**
+
+        * **Code:** 200 <br />
+        **Content:** `signout successfully`
+
+        * **Error Response:**
+
+        * **Code:** 400<br />
+        **Content:** `Pls Signin.` 
