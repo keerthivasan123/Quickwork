@@ -53,3 +53,38 @@
 
         * **Code:** 400<br />
         **Content:** `Pls Signin.` 
+        
+**Email Api**
+----
+  These apis are used to authenticate the users to signin, signout, and handle callbacks from google.
+
+  *   **1) Send Email**
+
+    `/api/sendEmail`
+
+  *   **Method:**
+
+    `POST`
+  *   **Data Params:**
+     **Required:**
+    `{ "to" : "example@gmail.com", "subject" : "Example Subject", "body" : "abc def ghi jkl etc..." }`
+
+  *   **Success Response:**
+      `{
+      "res": {
+          "id": "174e80b1323c9539",
+          "threadId": "174e80b1323c9539",
+          "labelIds": [
+              "UNREAD",
+              "SENT",
+              "INBOX"
+          ]
+      },
+      "message": "Email Sent Successfully"
+      }`
+  *   **Error Response:**
+
+  *   **Code:** 422<br />
+      **Content:** `{ error : "required data params missing" }`      
+  *   **Code:** 404<br />
+      **Content:** `Error in sending the Email.`   
