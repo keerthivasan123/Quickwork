@@ -1,6 +1,14 @@
 # Quickwork
 ## Build an API in NodeJS using express to send emails using the Gmail REST API
 
+**Get Started**
+----
+  Steps to start the project.
+  *   **1) npm install**
+  *   **2) Download the credentials.json file from Google Develope Console. Save the file in root folder of the project**
+  *   **3) npm start**
+  *   **4) Use the below APIs defined for signIn, signOut, sendEmails etc.
+  
 **Auth Api**
 ----
   These apis are used to authenticate the users to signin, signout, and handle callbacks from google.
