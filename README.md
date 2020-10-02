@@ -67,25 +67,27 @@
     `POST`
   *   **Data Params:**
        **Required:**<br />
-      ```{ 
+      ```
+      { 
           "to" : "example@gmail.com", 
           "subject" : "Example Subject", 
           "body" : "abc def ghi jkl etc..." 
-         }
+      }
       ```
 
   *   **Success Response:**<br />
-        ```{
-        "res": {
-            "id": "174e80b1323c9539",
-            "threadId": "174e80b1323c9539",
-            "labelIds": [
-                "UNREAD",
-                "SENT",
-                "INBOX"
-            ]
-        },
-        "message": "Email Sent Successfully"
+        ```
+        {
+          "res": {
+              "id": "174e80b1323c9539",
+              "threadId": "174e80b1323c9539",
+              "labelIds": [
+                  "UNREAD",
+                  "SENT",
+                  "INBOX"
+              ]
+          },
+          "message": "Email Sent Successfully"
         }
         ```
   *   **Error Response:**<br />
