@@ -66,10 +66,10 @@
 
     `POST`
   *   **Data Params:**
-     **Required:**
+     **Required:**<br />
     `{ "to" : "example@gmail.com", "subject" : "Example Subject", "body" : "abc def ghi jkl etc..." }`
 
-  *   **Success Response:**
+  *   **Success Response:**<br />
       `{
       "res": {
           "id": "174e80b1323c9539",
@@ -82,7 +82,7 @@
       },
       "message": "Email Sent Successfully"
       }`
-  *   **Error Response:**
+  *   **Error Response:**<br />
 
   *   **Code:** 422<br />
       **Content:** `{ error : "required data params missing" }`      
