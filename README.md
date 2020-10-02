@@ -7,7 +7,7 @@
   *   **1) npm install**
   *   **2) Download the credentials.json file from Google Develope Console. Save the file in root folder of the project**
   *   **3) npm start**
-  *   **4) Use the below APIs defined for signIn, signOut, sendEmails etc.
+  *   **4) Use the below APIs defined for signIn, signOut, sendEmails etc.**
   
 **Auth Api**
 ----
